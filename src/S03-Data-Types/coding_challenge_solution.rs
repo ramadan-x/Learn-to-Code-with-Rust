@@ -10,13 +10,9 @@ fn main() {
     let array_int: [i8; 4] = [1, 2, 3, 4];
 
     println!("{array_int:?}");
-    
-    let student = ("Ramadan", 18, 3.5 );
+
+    let student = ("Ramadan", 18, 3.5);
     let (name, age, gpa) = student;
     println!("Student name {name}, age {age}, GPA {gpa}");
     println!("{student:?}");
-
-
-
-
 }
