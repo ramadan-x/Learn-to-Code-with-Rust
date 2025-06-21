@@ -4,9 +4,9 @@ fn main() {
     let pi: f64 = 3.1234;
     println!("{pi:.3}");
     let with_milk = true;
-    let with_suger = false;
-    let is_my_type_of_coffee: bool = with_milk && with_suger;
-    let is_acceptable_coffee: bool = with_milk || with_suger;
+    let with_sugar = false;
+    let is_my_type_of_coffee: bool = with_milk && with_sugar;
+    let is_acceptable_coffee: bool = with_milk || with_sugar;
     let array_int: [i8; 4] = [1, 2, 3, 4];
 
     println!("{array_int:?}");
